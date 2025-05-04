@@ -14,7 +14,7 @@ function sym(...args) {
       ...curr.filter((item) => !acc.includes(item)),
     ],
     []
-  ); // Inisialisasi accumulator sebagai array kosong
+  );
 }
 
 console.log(sym([1, 2, 3], [5, 2, 1, 4]));
