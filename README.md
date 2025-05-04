@@ -4,7 +4,7 @@ Welcome to my JavaScript learning journey! 🌱
 This repository is where I sharpen my JS skills by going back to the **basics** — mastering the foundations to build better, cleaner code.  
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript Logo" width="100" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript Logo" width="500" />
 </p>
 
 ---
