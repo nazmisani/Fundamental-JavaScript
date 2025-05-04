@@ -34,16 +34,3 @@ I created this as a self-study playground to:
 
 ---
 
-## 📁 Structure (Example)
-
-```bash
-├── variables/
-│   └── let-vs-var.js
-├── functions/
-│   └── arrow-functions.js
-├── arrays/
-│   └── manual-array-push.js
-├── objects/
-│   └── nested-objects.js
-├── logic/
-│   └── fizzbuzz.js
