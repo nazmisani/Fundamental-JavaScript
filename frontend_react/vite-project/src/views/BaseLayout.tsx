@@ -11,6 +11,7 @@ export default function BaseLayout() {
       navigate("/login");
     }
   }, [navigate]);
+
   return (
     <>
       <Outlet />
