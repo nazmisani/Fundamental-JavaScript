@@ -4,10 +4,12 @@ import Login from "./views/Login";
 import Register from "./views/Register";
 import BaseLayout from "./views/BaseLayout";
 import Add from "./views/Add";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   return (
     <>
+      <ToastContainer position="bottom-right" />
       <BrowserRouter>
         <Routes>
           <Route path="/login" element={<Login />} />
