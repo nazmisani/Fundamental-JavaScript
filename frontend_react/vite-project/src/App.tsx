@@ -1,3 +1,4 @@
+import "./index.css";
 import { BrowserRouter, Route, Routes } from "react-router";
 import Home from "./views/Home";
 import Login from "./views/Login";
