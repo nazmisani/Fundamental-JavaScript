@@ -75,17 +75,11 @@ export default function Register() {
                 Address
               </Label>
               <Input className="mt-2" />
-              <div className="flex justify-start mt-5">
+              <div className="flex justify-between mt-5">
                 <Button variant="outline" onClick={handlePrev}>
                   Back
                 </Button>
-                <Button
-                  className="flex justify-end mt-5"
-                  variant="outline"
-                  onClick={handlePrev}
-                >
-                  Back
-                </Button>
+                <Button variant="outline">Submit</Button>
               </div>
             </>
           )}
