@@ -19,10 +19,10 @@ export default function Login() {
           <CardDescription>Masuk Sekarang</CardDescription>
         </CardHeader>
         <CardContent>
-          <Label htmlFor="email">Your email address</Label>
+          <Label htmlFor="email">Email</Label>
           <Input className="mt-2" />
           <Label className="mt-2" htmlFor="email">
-            Your Password
+            Password
           </Label>
           <Input className="mt-2" />
         </CardContent>
