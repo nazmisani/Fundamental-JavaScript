@@ -43,6 +43,9 @@ export default function Register() {
           <CardDescription>Daftar Sekarang</CardDescription>
         </CardHeader>
         <CardContent>
+          <div className="flex justify-center text-xs">
+            <p>step {step} of 2</p>
+          </div>
           {/* STEP 1 */}
           {step === 1 && (
             <>
