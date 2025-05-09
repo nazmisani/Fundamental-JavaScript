@@ -1,1 +1,1 @@
-export const api: string = "localhost bla bla";
+export const api: string = "https://h8-phase2-gc.vercel.app";
