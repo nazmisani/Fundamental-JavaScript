@@ -1,7 +1,6 @@
 import { Outlet, useLocation, useNavigate } from "react-router";
 import { useEffect } from "react";
 import { toast } from "react-toastify";
-import Home from "./Home";
 
 export default function BaseLayout() {
   const navigate = useNavigate();
