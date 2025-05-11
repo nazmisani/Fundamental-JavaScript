@@ -35,15 +35,13 @@ export default function Register() {
     e.preventDefault();
 
     try {
-      const response = await fetch(`${api}/apis/add-user`, {
+      await fetch(`${api}/apis/add-user`, {
         method: "POST",
         headers: {
           "Content-Type": "application.json",
         },
         body: JSON.stringify(formData),
       });
-
-      const data = await response.json();
 
       toast.success(`register succesfully`);
       navigate("/login");
