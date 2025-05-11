@@ -12,20 +12,20 @@ import { useState } from "react";
 
 export default function Register() {
   const [step, setStep] = useState(1);
-  // const [formData, setFormData] = useState({
-  //   email: "",
-  //   username: "",
-  //   password: "",
-  //   address: "",
-  //   phoneNumber: "",
-  // });
+  const [formData, setFormData] = useState({
+    email: "",
+    username: "",
+    password: "",
+    address: "",
+    phoneNumber: "",
+  });
 
-  // function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
-  //   setFormData({
-  //     ...formData,
-  //     [e.target.name]: e.target.value,
-  //   });
-  // }
+  function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  }
 
   function handleNext() {
     setStep(2);
