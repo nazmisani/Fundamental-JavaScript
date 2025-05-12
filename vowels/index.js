@@ -1,3 +1,26 @@
+function countVowels(string) {
+  let result = 0;
+
+  let lowString = string.toLowerCase();
+  //   console.log(lowString);
+
+  for (let i = 0; i < lowString.length; i++) {
+    // console.log(lowString[i]);
+
+    if (
+      lowString[i] === "a" ||
+      lowString[i] === "i" ||
+      lowString[i] === "u" ||
+      lowString[i] === "e" ||
+      lowString[i] === "o"
+    ) {
+      result += 1;
+    }
+  }
+
+  return console.log(result);
+}
+
 countVowels("Hello World");
 // Output: 3
 // Penjelasan: Huruf vokal = 'e', 'o', 'o'
